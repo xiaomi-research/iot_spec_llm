@@ -46,19 +46,14 @@ The project includes training data for various IoT device categories:
 
 - Air Conditioner (空调)
 - Air Purifier (空气净化器)
-- Air Quality Monitor (空气检测仪)
-- Camera (摄像头)
+- Clothes Drier (晾衣架)
+- Curtain (窗帘)
 - Dehumidifier (除湿机)
-- Dishwasher (洗碗机)
 - Fan (风扇)
+- Fresh Air Ventilator (新风机)
 - Humidifier (加湿器)
-- Light (灯)
-- Projector (投影仪)
-- Robot Vacuum (扫地机器人)
-- Smart Mirror (智能镜)
-- Switch (开关)
 - TV (电视)
-- Washing Machine (洗衣机)
+- Window Opener (开窗器)
 - And many more...
 
 Data files are located in the `data/` directory, organized by device category.
@@ -151,7 +146,27 @@ All other components remain largely unchanged from the original verl framework.
 
 ## License
 
-This project inherits the Apache 2.0 license from verl. See the original verl repository for license details.
+### Code
+> [!NOTE]
+> This project includes code derived from the **verl** project, which is licensed under the Apache License, Version 2.0.
+
+Copyright (C) 2026 Xiaomi Corporation.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+### Data
+> [!NOTE]
+> All datasets provided in this project are fully synthetic, contain no real user data or personal information, and are intended for illustrative and demonstration purposes only.
+
+Copyright (C) 2026 Xiaomi Corporation.
+
+Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) (the "License"); you may not use this data except in compliance with the License. You may obtain a copy of the License at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Unless required by applicable law or agreed to in writing, data distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ## Acknowledgments
 
@@ -168,4 +183,3 @@ If you use this project in your research, please cite our paper:
   year={2026}
 }
 ```
-
